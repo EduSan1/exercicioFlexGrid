@@ -20,18 +20,21 @@ body {
 header{
 
     background-color: rgb(108, 159, 192);
+    height: 34%;
 
 }
 
 main{
 
     background-color: rgb(66, 168, 92);
+    height: 33%;
 
 }
 
 footer{
 
     background-color: rgb(185, 117, 224);
+    height: 33%;
 
 }
 
