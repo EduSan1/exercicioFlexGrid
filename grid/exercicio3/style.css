@@ -1,0 +1,49 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+header{
+
+    background-color: rgb(108, 159, 192);
+    grid-area: header;
+}
+
+main{
+
+    background-color: rgb(66, 168, 92);
+    grid-area: main;
+}
+
+footer{
+
+    background-color: rgb(185, 117, 224);
+    grid-area: footer;
+}
+nav {
+    background-color: rgb(226, 126, 126);
+    grid-area: nav;
+}
+
+.mosqueteiros {
+
+}
+
+body {
+
+    display: grid;
+    grid-template-areas: 
+    "nav header header header header"
+    "nav main main main main"
+    "nav main main main main"
+    "nav main main main main"
+    "nav main main main main"
+    "nav footer footer footer footer"
+    ;
+    grid-auto-rows: 16.66vh;
+}

@@ -1,0 +1,56 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+
+    background-color: rgb(108, 159, 192);
+
+}
+
+main{
+
+    background-color: rgb(66, 168, 92);
+
+}
+
+footer{
+
+    background-color: rgb(185, 117, 224);
+}
+
+.grupo {
+
+    display: grid;
+    grid-template-areas:
+    "item1"
+    "item2"
+    "item2"    
+    "item2"    
+    "item2"
+    "item3"
+    ;
+    grid-auto-rows: 16.66vh;
+
+}
+
+.itens:nth-child(1) {grid-area: item1;}
+.itens:nth-child(2) {grid-area: item2;}
+.itens:nth-child(3) {grid-area: item3;}
+
+.itens-main:nth-child(1) {grid-area: item2-1; background-color: lime;}
+.itens-main:nth-child(2) {grid-area: item2-2; background-color: teal;}
+.itens-main:nth-child(3) {grid-area: item2-3; background-color: darkviolet;}
+
+.itens {
+
+    display: grid;
+    grid-template-areas:
+    "item2-1 item2-2 item2-2 item2-3"
+    ;
+
+}

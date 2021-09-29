@@ -1,0 +1,45 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #3d0474;
+    flex-wrap: wrap;    
+    
+}
+
+
+header{
+
+    background-color: rgb(108, 159, 192);
+
+}
+
+main{
+
+    background-color: rgb(66, 168, 92);
+
+}
+
+footer{
+
+    background-color: rgb(185, 117, 224);
+
+}
+
+.mosqueteiros {
+    flex-grow: 5;
+}
+
+nav {
+    background-color: lawngreen;
+    flex-grow: 1;
+}

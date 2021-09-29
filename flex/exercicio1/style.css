@@ -1,0 +1,43 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #3d0474;
+}
+
+header{
+
+    background-color: rgb(108, 159, 192);
+    flex-grow: 1;
+}
+
+main{
+
+    background-color: rgb(66, 168, 92);
+        flex-grow: 4;
+
+}
+
+footer{
+
+    background-color: rgb(185, 117, 224);
+    flex-grow: 1;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+
+}
