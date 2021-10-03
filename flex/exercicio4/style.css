@@ -5,10 +5,22 @@
     box-sizing: border-box;
 
 }
+body {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #3d0474;
+    flex-wrap: wrap;    
+    
+}
+
 
 header{
 
     background-color: rgb(108, 159, 192);
+    height: 20%;
 
 }
 
@@ -16,29 +28,35 @@ main{
 
     background-color: rgb(66, 168, 92);
 
+    flex-grow: 5;
+
 }
 
 footer{
 
     background-color: rgb(185, 117, 224);
+    height: 20%;
 
 }
 
-.grupo {
+.mosqueteiros {
+    flex-grow: 5;
+    
+}
 
-    display: grid;
-    grid-template-areas:
-    "item1"
-    "item2"
-    "item2"
-    "item2"
-    "item2"
-    "item3"
-    ;
-    grid-auto-rows: 16.66vh;
+.main2 {
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+}
+
+semnome {
+
+    flex-grow: 1;
 
 }
 
-.itens:nth-child(1) {grid-area: item1;}
-.itens:nth-child(2) {grid-area: item2;}
-.itens:nth-child(3) {grid-area: item3;}
+nav {
+    background-color: lawngreen;
+    flex-grow: 1;
+}

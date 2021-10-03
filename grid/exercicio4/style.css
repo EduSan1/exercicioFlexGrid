@@ -6,39 +6,49 @@
 
 }
 
+
+
 header{
 
     background-color: rgb(108, 159, 192);
-
+    grid-area: header;
 }
 
 main{
 
     background-color: rgb(66, 168, 92);
+    grid-area: main;
+}
 
+semnome {
+    background-color: blue;
+    grid-area: semnome;
 }
 
 footer{
 
     background-color: rgb(185, 117, 224);
+    grid-area: footer;
+}
+nav {
+    background-color: rgb(226, 126, 126);
+    grid-area: nav;
+}
+
+.mosqueteiros {
 
 }
 
-.grupo {
+body {
 
     display: grid;
-    grid-template-areas:
-    "item1"
-    "item2"
-    "item2"
-    "item2"
-    "item2"
-    "item3"
+    grid-template-areas: 
+    "nav header header header header"
+    "nav main main main semnome"
+    "nav main main main semnome"
+    "nav main main main semnome"
+    "nav main main main semnome"
+    "nav footer footer footer footer"
     ;
     grid-auto-rows: 16.66vh;
-
 }
-
-.itens:nth-child(1) {grid-area: item1;}
-.itens:nth-child(2) {grid-area: item2;}
-.itens:nth-child(3) {grid-area: item3;}
